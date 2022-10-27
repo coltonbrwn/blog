@@ -1,6 +1,6 @@
 title: Colton Brown 
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   Colton Brown makes creative work across technology, music and design.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,6 +9,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+social:
+- name: icon-twitter
+  nick: "ccolltt"
+- name: icon-instagram
+  nick: "coltonbrwn"
+
+  icon: /assets/
 collections:
   projects:
     output: true
@@ -30,8 +37,8 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

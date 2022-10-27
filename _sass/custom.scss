@@ -10,3 +10,55 @@
 .item_description {
     font-weight: 200;
 }
+.social_nav {
+    padding: 20px;
+    display: grid;
+    align-self: center;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    line-height: 1.2;
+    .icon svg {
+        width: 16px;
+        height: 16px;
+        margin-bottom: -2px;
+        fill: #222;
+    }
+}
+.site-header {
+    box-shadow: 0 0 10px #aaa;
+    .header_grid{
+    display: grid;
+    @media(min-width: 601px){
+    padding: 40px 20px;
+    grid-template-columns: 1fr 200px;}
+    @media(min-width: 1024px){
+    padding: 80px 20px;}
+    .heading {
+        display: grid;
+        .site-title {
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            &:hover{ color: green;}
+        }
+        .description {
+            font-size: 1.5rem;
+        }
+    }}
+}
+h2 a, h3 a, a h3 {
+    color: $heading-color;
+    &::after {
+        content: "🔗";
+        font-size: 1rem;
+        color: green;
+        margin-left: 8px;
+    }
+    &:visited {
+        color: darkgreen;
+    }
+    &:hover {
+        text-shadow: 2px 3px 6px green;
+    }
+}

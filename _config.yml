@@ -8,14 +8,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - github-pages
+  
+source: ./source
 social:
 - name: icon-twitter
   nick: "ccolltt"
 - name: icon-instagram
   nick: "coltonbrwn"
-
-  icon: /assets/
 collections:
   projects:
     output: true
@@ -29,7 +29,6 @@ collections:
     output: true
   other:
     output: true
-
   
 exclude:
   - .sass-cache/

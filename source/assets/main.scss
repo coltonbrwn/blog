@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import "normalize";
+@import "custom";
+@font-face {
+  font-family: Helvetica;
+  src: url(./fonts/helvetica-bold.ttf) format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(./fonts/helvetica-light.ttf) format("truetype");
+  font-display: swap;
+}
+* {
+  font-family: Helvetica, Verdana, Tahoma;
+  font-weight: 200;
+  font-display: swap;
+}
+h1,
+h2,
+h3 {
+  font-family: Helvetica, Verdana, Tahoma;
+  color: green;
+}
+h1 {
+  font-weight: 700;
+}

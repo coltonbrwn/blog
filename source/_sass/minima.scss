@@ -17,7 +17,7 @@ $background-color-header: #F0FFDC !default;
 $brand-color: #41360f !default;
 $heading-color: green;
 
-$grey-color: #828282 !default;
+$grey-color: #525151 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
 
@@ -48,25 +48,3 @@ $on-laptop: 800px !default;
 
 // Import partials.
 @import "minima/base", "minima/layout", "minima/syntax-highlighting";
-@font-face {
-  font-family: Helvetica;
-  src: url({{site.baseurl}}/assets/fonts/Helvetica-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: Helvetica;
-  src: url({{site.baseurl}}/assets/fonts/helvetica-light.ttf) format("truetype");
-}
-* {
-  font-family: Helvetica, Verdana, Tahoma;
-  font-weight: 200;
-}
-h1,
-h2,
-h3 {
-  font-family: Helvetica, Verdana, Tahoma;
-  color: green;
-}
-h1 {
-  font-weight: 700;
-}
